@@ -1,0 +1,17 @@
+func factorial(n : Int) -> Int {
+    var result : Int = 1
+    var i : Int = 0
+    while (i<n) {
+        i = i+1
+        result = result*i
+    }
+    return result
+}
+
+var i : Int = 1
+
+while (i < 15) {
+    print(factorial(i))
+    i = i+1
+}
+
